@@ -1,0 +1,63 @@
+body {
+    font-size: 24px;
+    font-family: 'Play';
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: grid;
+    user-select: none;
+}
+
+.submit-box {
+    position: absolute;
+    border: 1px solid rgb(0, 172, 23);
+    color: rgb(0, 172, 23);
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 50px auto 0 auto;
+    transition: 150ms;
+}
+
+.submit {
+    transition: 100ms;
+}
+
+#check-mark {
+    display: none;
+    opacity: 0;
+    margin: 0 auto;
+    padding: 14px 0;
+    width: 13px;
+    height: 13px;
+    transition: 250ms;
+}
+
+.circle {
+    position: absolute;
+    border-top: 3px solid rgb(0, 172, 23);
+    color: rgb(0, 172, 23);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 50px auto 0 auto;
+    display: none;
+    opacity: 0;
+    transition: 150ms;
+}
+
+.restart {
+    position: absolute;
+    font-size: 20px;
+    padding: 8px;
+    width: 150px;
+    border: 1px solid rgb(0, 172, 23);
+    color: rgb(0, 172, 23);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+    margin: 150px auto 0 auto;
+}
